@@ -119,7 +119,7 @@ export default function Hero() {
           {/* Avatar Container */}
           <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full p-1 bg-gradient-to-tr from-brand-indigo via-brand-violet to-brand-cyan animate-float-slow shadow-2xl">
             <img 
-              src="./image-profile.jpg" 
+              src="./image-profile.png" 
               alt="Daris Nur Rahmat" 
               className="w-full h-full rounded-full object-cover bg-dark-surface"
               onError={(e) => {
@@ -199,7 +199,8 @@ export default function Hero() {
             Contact Me
           </button>
           <a 
-            href="#"
+            href="./CV Daris Nur Rahmat.docx"
+            download="CV Daris Nur Rahmat.docx"
             className="w-full sm:w-auto px-8 py-4 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-brand-indigo/50 font-medium text-white transition-all hover:scale-105 active:scale-95 duration-200 font-display flex items-center justify-center gap-2 group"
           >
             <span>Download CV</span>

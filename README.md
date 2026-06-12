@@ -36,8 +36,6 @@ Designed with a modern, futuristic dark theme, this portfolio is fully responsiv
 ```text
 portfolio-daris/
 ├── public/
-│   ├── favicon.svg             
-│   └── image-profile.jpg       ← Placeholder avatar (Replace with your own image)
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.jsx          ← Navigation with ScrollSpy
