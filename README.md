@@ -6,7 +6,7 @@ Designed with a modern, futuristic dark theme, this portfolio is fully responsiv
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Core & Logic:** React 19, JavaScript
 - **Build Tool:** Vite 8
@@ -17,7 +17,7 @@ Designed with a modern, futuristic dark theme, this portfolio is fully responsiv
 
 ---
 
-## ✨ Core Features & Visual Aesthetics
+## Core Features & Visual Aesthetics
 
 - **Dark Mode Only:** Pure immersive dark theme using `#0A0A0F` base and `#0F0F1A` surface backgrounds.
 - **Glassmorphism:** Consistent frosted-glass panels (`backdrop-filter: blur`, subtle semi-transparent borders, and deep drop-shadow overlays).
@@ -31,7 +31,7 @@ Designed with a modern, futuristic dark theme, this portfolio is fully responsiv
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```text
 portfolio-daris/
@@ -60,7 +60,7 @@ portfolio-daris/
 
 ---
 
-## 💻 Local Setup & Development
+## Local Setup & Development
 
 Follow these steps to run the application locally on your machine:
 
@@ -83,43 +83,3 @@ Follow these steps to run the application locally on your machine:
 
 ---
 
-## 🌐 Deployment Guidelines
-
-### 1. Deploying to Vercel or Netlify (Recommended)
-Both Vercel and Netlify detect Vite projects automatically.
-- Import this repository.
-- Build Command: `npm run build`
-- Output Directory: `dist`
-- No further configuration needed!
-
-### 2. Deploying to GitHub Pages
-To deploy to GitHub Pages as a project repository page (e.g., `https://username.github.io/repo-name/`):
-
-1. **Edit Vite Configuration:**
-   Open [vite.config.js](file:///d:/Coding/Universitas_Brawijaya/semester_2/DAMP/Project%20Akhir%20Individual/vite.config.js) and change:
-   ```javascript
-   base: './'
-   ```
-   to:
-   ```javascript
-   base: '/YOUR-REPOSITORY-NAME/'
-   ```
-   *(Note: The current relative config `./` should work for general deploys, but specifying the repository path is the safest configuration for GitHub Pages subfolders).*
-
-2. **Build and Deploy:**
-   You can install `gh-pages` and run the deployment script:
-   ```bash
-   npm install gh-pages --save-dev
-   ```
-   Add a script to `package.json`:
-   ```json
-   "deploy": "gh-pages -d dist"
-   ```
-   Then run:
-   ```bash
-   npm run build && npm run deploy
-   ```
-
----
-
-*This project was developed for the UI/UX Design course — Semester Genap 2025/2026, Faculty of Computer Science (FILKOM), Universitas Brawijaya.*
